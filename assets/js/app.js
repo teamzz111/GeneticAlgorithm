@@ -26,7 +26,7 @@ mother = () => {
             mom[j] = Math.floor(Math.random() * 2);
         }
         Mothers[i] = mom;
-    
+
         document.getElementById("madre").innerHTML += "[ " + Mothers[i] + "]<br><br>";
    }
 }
@@ -52,14 +52,21 @@ son = () => {
 
         console.log("hijo 1")
         for (let i = 0; i < 6; i++) {
-            console.log(" -");
+            if(o == 0){
+            document.getElementById("hijo").innerHTML += " " + son1[i] + " ";
+            } else {
+                document.getElementById("hijo2").innerHTML += " " + son1[i] + " ";
+                
+            }
             console.log("|" + son1[i] + "|");
         }
         console.log("hijo 2")
         for (let i = 0; i < 6; i++) {
-            console.log(" -");
-            console.log("|" + son2[i] + "|");
-
+            if(o == 0){
+                document.getElementById("hijo3").innerHTML += " " + son2[i] + " ";
+                } else {
+                    document.getElementById("hijo4").innerHTML += " " + son2[i] + " ";
+                }
         }
     }
 
