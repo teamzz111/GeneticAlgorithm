@@ -1,0 +1,25 @@
+{
+  "name": "geneticalgorithm",
+  "version": "0.0.1",
+  "description": "simulation of a genetic algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D4v1d98Ru1z/GeneticAlgorithm.git"
+  },
+  "keywords": [
+    "{",
+    "\"genetic\"",
+    "\"algorithm\"",
+    "\"nodejs\"}"
+  ],
+  "author": "{\"name\": \"David Ruiz\", \"name\":\"Andres Largo\"}",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/D4v1d98Ru1z/GeneticAlgorithm/issues"
+  },
+  "homepage": "https://github.com/D4v1d98Ru1z/GeneticAlgorithm#readme"
+}
