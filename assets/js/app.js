@@ -4,8 +4,7 @@ var FnewG = [];
 var MnewG = [];
 
 father = () => {
-    console.log("####################");
-    console.log("Fathers");
+    
     for (let i = 0; i < 2; i++) {
         console.log(i + 1);
         let dad = [];
@@ -13,9 +12,8 @@ father = () => {
             dad[j] = Math.floor(Math.random() * 2);
         }
         Fathers[i] = dad;
-        console.log(" -")
-        console.log("|" + Fathers[i] + "|");
-
+        
+        document.getElementById("padre").innerHTML += "[ " + Fathers[i] + "]<br><br>";
     }
 }
 mother = () => {
@@ -28,9 +26,9 @@ mother = () => {
             mom[j] = Math.floor(Math.random() * 2);
         }
         Mothers[i] = mom;
-        console.log(" -")
-        console.log("|" + Mothers[i] + "|");
-    }
+    
+        document.getElementById("madre").innerHTML += "[ " + Mothers[i] + "]<br><br>";
+   }
 }
 son = () => {
     console.log("####################");
